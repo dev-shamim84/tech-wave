@@ -17,7 +17,20 @@
     font-size: 27px;
   }
 
+  #banner-section {
+    padding: 36px 0px;
+  }
+
   .banner-content p {
     font-size: 23px;
+  }
+
+  #about-section {
+    padding: 36px 0 0 0;
+  }
+
+  .podcast-cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
   }
 }
