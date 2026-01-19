@@ -71,4 +71,19 @@
   .feature-cards .card iframe {
     width: 100%;
   }
+
+  #host-section {
+    background-color: rgba(26, 11, 46, 1);
+    padding: 40px 0px;
+  }
+
+  .host {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .host .icon {
+    justify-content: center;
+  }
 }

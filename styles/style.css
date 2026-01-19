@@ -345,3 +345,46 @@ header {
   color: rgba(255, 255, 255, 1);
   margin: 10px 0px;
 }
+
+/* Host section */
+#host-section {
+  background-color: rgba(26, 11, 46, 1);
+  padding: 100px 0px;
+
+}
+
+.host {
+  display: flex;
+  gap: 24px;
+  background-color: rgba(53, 17, 101, 0.4);
+  align-items: center;
+  padding: 40px;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+
+.host-content h4 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.host-content p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.host-content .icon {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.host-content .icon img {
+  border: 1px solid rgba(83, 60, 114, 1);
+  border-radius: 50%;
+  padding: 8px;
+}
