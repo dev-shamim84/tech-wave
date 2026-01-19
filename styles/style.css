@@ -200,14 +200,6 @@ header {
   text-align: center;
 }
 
-.about-content h6 {
-  color: rgb(156, 153, 153);
-  font-size: 16px;
-  font-weight: 400;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
 .podcast-cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
