@@ -46,7 +46,7 @@
   .whychoose-Card {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
-    gap: 30px;
+    gap: 16px;
   }
 
   .card-1,
@@ -56,5 +56,19 @@
   .card-5 {
     grid-column: span 1;
     grid-row: span 1;
+  }
+
+  #feature-section {
+    padding: 40px 0;
+  }
+
+
+  .feature-cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+  }
+
+  .feature-cards .card iframe {
+    width: 100%;
   }
 }
