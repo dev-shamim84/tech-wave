@@ -26,11 +26,35 @@
   }
 
   #about-section {
-    padding: 36px 0 0 0;
+    padding: 36px 0;
+  }
+
+  #whyChoose-section {
+    background-color: #230E3D;
+    padding: 40px 0px;
+  }
+
+  .title {
+    font-size: 32px;
   }
 
   .podcast-cards {
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
+  }
+
+  .whychoose-Card {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 30px;
+  }
+
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4,
+  .card-5 {
+    grid-column: span 1;
+    grid-row: span 1;
   }
 }
