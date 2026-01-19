@@ -2,6 +2,7 @@
   .contanier {
     max-width: 95%;
     margin: 0 auto;
+    padding: 0px 15px;
   }
 
   .nav-Item {
@@ -94,4 +95,10 @@
   footer {
     padding: 40px 0;
   }
+
+  footer p {
+    font-size: 14px;
+
+  }
+
 }

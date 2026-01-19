@@ -141,7 +141,7 @@ header {
 }
 
 .banner-content p {
-  color: #fff;
+  color: rgb(156, 153, 153);
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 30px;
@@ -194,14 +194,14 @@ header {
 }
 
 .about-content p {
-  color: #fff;
+  color: rgb(156, 153, 153);
   font-size: 16px;
   margin-bottom: 20px;
   text-align: center;
 }
 
 .about-content h6 {
-  color: #fff;
+  color: rgb(156, 153, 153);
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 10px;
@@ -225,7 +225,7 @@ header {
 }
 
 .podcast-card h4 {
-  color: #fff;
+  color: rgb(156, 153, 153);
   font-size: 16px;
   font-weight: 400;
   text-align: center;
@@ -262,7 +262,7 @@ header {
 .whychoose-Card p {
   font-size: 16px;
   font-weight: 400;
-  color: #fff;
+  color: rgb(156, 153, 153);
 
 }
 
@@ -320,7 +320,7 @@ header {
 }
 
 .feature-cards .card {
-  border-radius: 10px;
+  border-radius: 15px;
   overflow: hidden;
 }
 
@@ -330,7 +330,7 @@ header {
 }
 
 .feature-cards .card .card-content h4 {
-  font-size: 24px;
+  font-size: 23px;
   font-weight: 700;
   color: #fff;
 }
@@ -341,9 +341,9 @@ header {
 
 .feature-cards .card .card-content p {
   font-size: 16px;
-  font-weight: 700;
-  color: rgba(255, 255, 255, 1);
-  margin: 10px 0px;
+  font-weight: 400;
+  color: rgb(156, 153, 153);
+  margin: 10px 0px 15px 0px;
 }
 
 /* Host section */
@@ -373,7 +373,7 @@ header {
 .host-content p {
   font-size: 16px;
   font-weight: 400;
-  color: #fff;
+  color: rgb(156, 153, 153);
   margin-bottom: 16px;
 }
 
@@ -383,10 +383,16 @@ header {
   align-items: center;
 }
 
-.host-content .icon img {
-  border: 1px solid rgba(83, 60, 114, 1);
+.host-content .icon div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
-  padding: 8px;
+  border: 1px solid rgba(83, 60, 114, 1);
+  padding: 10px;
+
 }
 
 /* Footer */
@@ -434,6 +440,11 @@ footer {
 footer p {
   font-size: 16px;
   font-weight: 400;
-  color: #fff;
+  color: rgb(156, 153, 153);
   text-align: center
+}
+
+footer hr {
+  color: rgb(128, 122, 122);
+  margin: 10px 0 20px 0;
 }
