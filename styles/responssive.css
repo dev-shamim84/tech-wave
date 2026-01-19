@@ -86,4 +86,12 @@
   .host .icon {
     justify-content: center;
   }
+
+  .company-logo {
+    flex-wrap: wrap;
+  }
+
+  footer {
+    padding: 40px 0;
+  }
 }

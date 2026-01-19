@@ -388,3 +388,52 @@ header {
   border-radius: 50%;
   padding: 8px;
 }
+
+/* Footer */
+footer {
+  background-image: url('../assets/footer-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 120px 0px;
+}
+
+.footer-logo {
+  color: #ffff;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.footer-logo span {
+  background: linear-gradient(#F7E93F, #FB09B4, #9100F8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.company-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 20px;
+  margin: 32px 0px;
+}
+
+.company-logo img {
+  vertical-align: middle;
+}
+
+.company-logo span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  margin-left: 10px;
+}
+
+footer p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  text-align: center
+}
