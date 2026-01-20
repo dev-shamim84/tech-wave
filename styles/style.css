@@ -132,6 +132,7 @@ header {
   max-width: 100%;
 }
 
+
 .banner-content h1 {
   color: #fff;
   font-size: 60px;
@@ -183,6 +184,12 @@ header {
 #about-section {
   background-color: #1A0B2E;
   padding: 50px 0px;
+}
+
+.about-content hr {
+  border: none;
+  border-top: 1.5px solid rgba(112, 106, 106, 0.377);
+  margin: 15px 0 0 0;
 }
 
 .about-content h2 {
