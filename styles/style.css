@@ -19,10 +19,6 @@ body {
 }
 
 header {
-  /* background: linear-gradient(to left,
-      rgb(36, 21, 90),
-      rgb(66, 36, 109),
-      rgb(69, 43, 104)); */
   background-color: #1A0B2E;
   border-bottom: 1.5px solid rgba(65, 37, 103, 1);
   padding: 10px 0;
@@ -422,20 +418,22 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-content: center;
-  gap: 10px;
+  gap: 40px;
   margin: 32px 0px;
 }
 
-.company-logo img {
-  vertical-align: middle;
+.company-logo div {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
-.company-logo span {
-  font-size: 16px;
+.company-logo div p {
+  font-size: 18px;
   font-weight: 400;
   color: #fff;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 footer p {
