@@ -437,6 +437,7 @@ footer p {
 }
 
 footer hr {
-  color: rgb(128, 122, 122);
+  border: none;
+  border-top: 1.5px solid rgba(112, 106, 106, 0.377);
   margin: 10px 0 20px 0;
 }
